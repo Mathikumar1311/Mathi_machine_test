@@ -1,0 +1,89 @@
+
+.photo-carousel {
+    position: relative;
+}
+
+.image-indicator {
+    display: flex;
+    justify-content: flex-end; 
+    margin-bottom: 10px; 
+}
+
+.four-dots {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+}
+
+.four-dots span {
+    display: block;
+    width: 20px; 
+    height: 5px; 
+    border-radius: 20px; 
+    margin: 0 5px; 
+    background-color: rgba(128, 128, 128, 0.5); /* Default color for inactive dots */
+}
+
+.four-dots span.active {
+    background-color: white; 
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: nowrap; 
+    overflow-x: auto; 
+    overflow-y: hidden; 
+    width: 100%; 
+}
+
+.card {
+    flex: 0 0 auto; 
+    width: 150px; 
+    height: 200px; 
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 10px; 
+}
+
+.card.selected {
+    border: 2px solid green; 
+}
+
+.card:hover {
+    border: 3px solid green; 
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px; 
+    object-fit: cover; 
+}
+
+.arrow-container {
+    display: flex;
+    justify-content: flex-end; 
+    margin-top: 10px; 
+    position: absolute; 
+    width: 100%; 
+    bottom: 10px; 
+}
+
+.arrow {
+    cursor: pointer;
+    padding: 10px;
+    color: white; 
+}
+
+
+@media (max-width: 600px) {
+    .card {
+        width: 100px; 
+        height: 150px; 
+    }
+    
+    .image-container {
+        overflow-x: scroll; 
+    }
+}

@@ -10,10 +10,9 @@
     overflow-y: auto;
     scrollbar-width: none;
 }
-
-/* .mobile-background {
-    background-color: rgba(128, 128, 128, 0.5); 
-    border: 1px solid white; 
-    padding: 20px; 
-    border-radius: 5px; 
-} */
+@media (max-width: 768px) {
+    .mobile-background {
+        border-top: 2px solid gray;  
+        border-radius: 5px; 
+    }
+}

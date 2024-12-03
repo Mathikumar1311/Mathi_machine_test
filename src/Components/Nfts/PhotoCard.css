@@ -1,31 +1,36 @@
-.photo-card{
-    height: 250px;
-}
-.photo-card{
+.photo-card {
+    height: 400px; 
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
     justify-content: center; 
     margin: 0 auto;
     padding: 10px;
-    overflow:scroll;
-    
+    overflow: auto; 
 }
 
-.card{
-    width: 150px;
-    height: 200px;
+.card {
+    width: 200px; 
+    height: 250px; 
     background-color: black;
     border-radius: 10px;
     padding: 10px;
-    margin: 20px;
-
+    margin: 10px; 
+    box-sizing: border-box; 
 }
 
-.card:hover{
-    border: 3px solid green;
+.card:hover {
+    border: 3px solid green; 
 }
+
 
 .photo-card::-webkit-scrollbar {
     display: none; 
+}
+
+
+@media (max-width: 600px) {
+    .card {
+        width: 100px;
+        height: 150px; 
+    }
 }

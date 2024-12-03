@@ -1,7 +1,5 @@
-
 .strategies-container {
     padding: 20px; 
-    
 }
 
 .radio-group {
@@ -18,14 +16,14 @@
     width: calc(25% - 20px); 
     margin: 10px; 
     padding: 10px;
-    
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 5px; 
 }
 
-h2{
+h2 {
     color: red;
     margin: 20px;
 }
-
 
 .radio-label input {
     margin-right: 10px; 

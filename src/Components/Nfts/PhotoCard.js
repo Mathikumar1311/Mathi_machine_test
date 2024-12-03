@@ -1,4 +1,3 @@
-// src/PhotoCard.js
 import React from 'react';
 import './PhotoCard.css';
 

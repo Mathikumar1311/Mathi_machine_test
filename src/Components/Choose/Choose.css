@@ -1,0 +1,34 @@
+.header {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.price-options {
+    margin-left: 20px;
+}
+
+.price_NFT {
+    margin: 0 15px;
+    font-size: 24px;
+    font-weight: bold;
+    color: green;
+}
+
+.price_ours {
+    margin: 0 15px;
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+}
+
+p {
+    font-size: 28px;
+    margin: 0;
+    font-weight: normal;
+    color: red;
+}

@@ -1,0 +1,22 @@
+.tradeSize{
+    padding: 20px;
+
+}
+.heading_button p{
+    color: red;
+    font-weight: bold;
+}
+
+.para{
+
+    font-size: 20px;
+    margin-top: 10px;
+    color: white;
+}
+
+
+.heading_button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -1,14 +1,11 @@
-
-.strategies-container {
+.additional-strategies-container {
     padding: 20px; 
-    
 }
 
 .radio-group {
     display: flex;
     flex-wrap: wrap; 
     margin: -10px; 
-    color: white;
 }
 
 .radio-label {
@@ -18,14 +15,12 @@
     width: calc(25% - 20px); 
     margin: 10px; 
     padding: 10px;
-    
 }
 
-h2{
+h2 {
     color: red;
     margin: 20px;
 }
-
 
 .radio-label input {
     margin-right: 10px; 

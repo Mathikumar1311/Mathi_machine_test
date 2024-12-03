@@ -1,6 +1,6 @@
 import React from "react";
 import "./TradeSize.css";
-import ToggleButton from "./ToogleButton.js";
+import ToggleButton from "./ToogleButton"
 
 const TradeSize = () => {
   return (
